@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhfts.a CMakeFiles/hfts.dir/src/fiber.cpp.o CMakeFiles/hfts.dir/src/memory.cpp.o CMakeFiles/hfts.dir/src/scheduler.cpp.o CMakeFiles/hfts.dir/src/thread.cpp.o CMakeFiles/hfts.dir/src/worker.cpp.o CMakeFiles/hfts.dir/src/osfiber_i.S.o
+/usr/bin/ranlib libhfts.a
