@@ -333,7 +333,7 @@ void Worker::runUntilIdle() {
 
             // Assign a null value so that task can be destroyed.
             task = Task();
-            work.mutex.unlock();
+            work.mutex.lock();
         }
     }
 }

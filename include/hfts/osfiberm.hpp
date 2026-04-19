@@ -118,7 +118,7 @@ Allocator::unique_ptr<OSFiber> OSFiber::createFiber(
     out->stack = allocator->allocate(request);
     out->target = func;
 
-    hfts_fiber_set_run(&out->context, &out->stack.ptr, static_cast<uint32_t>(stackSize),
+    hfts_fiber_set_run(&out->context, out->stack.ptr, static_cast<uint32_t>(stackSize),
                           reinterpret_cast<void(*)(void*)>(&OSFiber::run), out.get());
     return out;
 }
@@ -132,4 +132,3 @@ void OSFiber::switchTo(OSFiber* to) {
 }
 
 }
-

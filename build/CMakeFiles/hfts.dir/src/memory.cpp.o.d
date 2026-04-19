@@ -1,6 +1,6 @@
 CMakeFiles/hfts.dir/src/memory.cpp.o: \
-  /Users/sa/Documents/d/cppProject/hfts/src/memory.cpp \
-  /Users/sa/Documents/d/cppProject/hfts/include/hfts/memory.hpp \
+  /Users/sa/Documents/d/code/cppProject/hfts/src/memory.cpp \
+  /Users/sa/Documents/d/code/cppProject/hfts/include/hfts/memory.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

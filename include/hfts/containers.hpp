@@ -14,12 +14,7 @@
 
 namespace hfts {
 namespace containers {
-////////////////////////////////////////////////////////////////////////////////
-// STL wrappers
-// STL containers that use a hfts::StlAllocator backed by a hfts::Allocator.
-// Note: These may be re-implemented to optimize for hfts's usage cases.
-// See: https://github.com/google/hfts/issues/129
-////////////////////////////////////////////////////////////////////////////////
+
 template <typename T>
 using deque = std::deque<T, StlAllocator<T>>;
 

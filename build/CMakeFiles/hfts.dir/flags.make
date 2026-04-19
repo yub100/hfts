@@ -5,7 +5,7 @@
 # compile CXX with /usr/bin/c++
 ASM_DEFINES = 
 
-ASM_INCLUDES = -I/Users/sa/Documents/d/cppProject/hfts/include
+ASM_INCLUDES = -I/Users/sa/Documents/d/code/cppProject/hfts/include
 
 ASM_FLAGSarm64 =  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
 
@@ -13,7 +13,7 @@ ASM_FLAGS =  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacO
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/sa/Documents/d/cppProject/hfts/include
+CXX_INCLUDES = -I/Users/sa/Documents/d/code/cppProject/hfts/include
 
 CXX_FLAGSarm64 = -std=c++11 -arch arm64
 

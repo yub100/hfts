@@ -54,10 +54,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sa/Documents/d/cppProject/hfts
+CMAKE_SOURCE_DIR = /Users/sa/Documents/d/code/cppProject/hfts
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sa/Documents/d/cppProject/hfts/build
+CMAKE_BINARY_DIR = /Users/sa/Documents/d/code/cppProject/hfts/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -66,12 +66,14 @@ CMAKE_BINARY_DIR = /Users/sa/Documents/d/cppProject/hfts/build
 all: CMakeFiles/hfts.dir/all
 all: CMakeFiles/hello_task.dir/all
 all: CMakeFiles/fractal.dir/all
+all: CMakeFiles/hfts_benchmark.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/hfts.dir/codegen
 codegen: CMakeFiles/hello_task.dir/codegen
 codegen: CMakeFiles/fractal.dir/codegen
+codegen: CMakeFiles/hfts_benchmark.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -82,6 +84,7 @@ preinstall:
 clean: CMakeFiles/hfts.dir/clean
 clean: CMakeFiles/hello_task.dir/clean
 clean: CMakeFiles/fractal.dir/clean
+clean: CMakeFiles/hfts_benchmark.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -91,14 +94,14 @@ clean: CMakeFiles/fractal.dir/clean
 CMakeFiles/hfts.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hfts.dir/build.make CMakeFiles/hfts.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hfts.dir/build.make CMakeFiles/hfts.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sa/Documents/d/cppProject/hfts/build/CMakeFiles --progress-num=5,6,7,8,9,10,11 "Built target hfts"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles --progress-num=5,6,7,8,9,10,11 "Built target hfts"
 .PHONY : CMakeFiles/hfts.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hfts.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sa/Documents/d/cppProject/hfts/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hfts.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sa/Documents/d/cppProject/hfts/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles 0
 .PHONY : CMakeFiles/hfts.dir/rule
 
 # Convenience name for target.
@@ -108,7 +111,7 @@ hfts: CMakeFiles/hfts.dir/rule
 # codegen rule for target.
 CMakeFiles/hfts.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hfts.dir/build.make CMakeFiles/hfts.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sa/Documents/d/cppProject/hfts/build/CMakeFiles --progress-num=5,6,7,8,9,10,11 "Finished codegen for target hfts"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles --progress-num=5,6,7,8,9,10,11 "Finished codegen for target hfts"
 .PHONY : CMakeFiles/hfts.dir/codegen
 
 # clean rule for target.
@@ -123,14 +126,14 @@ CMakeFiles/hfts.dir/clean:
 CMakeFiles/hello_task.dir/all: CMakeFiles/hfts.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_task.dir/build.make CMakeFiles/hello_task.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_task.dir/build.make CMakeFiles/hello_task.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sa/Documents/d/cppProject/hfts/build/CMakeFiles --progress-num=3,4 "Built target hello_task"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles --progress-num=3,4 "Built target hello_task"
 .PHONY : CMakeFiles/hello_task.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello_task.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sa/Documents/d/cppProject/hfts/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_task.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sa/Documents/d/cppProject/hfts/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles 0
 .PHONY : CMakeFiles/hello_task.dir/rule
 
 # Convenience name for target.
@@ -140,7 +143,7 @@ hello_task: CMakeFiles/hello_task.dir/rule
 # codegen rule for target.
 CMakeFiles/hello_task.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_task.dir/build.make CMakeFiles/hello_task.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sa/Documents/d/cppProject/hfts/build/CMakeFiles --progress-num=3,4 "Finished codegen for target hello_task"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles --progress-num=3,4 "Finished codegen for target hello_task"
 .PHONY : CMakeFiles/hello_task.dir/codegen
 
 # clean rule for target.
@@ -155,14 +158,14 @@ CMakeFiles/hello_task.dir/clean:
 CMakeFiles/fractal.dir/all: CMakeFiles/hfts.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sa/Documents/d/cppProject/hfts/build/CMakeFiles --progress-num=1,2 "Built target fractal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles --progress-num=1,2 "Built target fractal"
 .PHONY : CMakeFiles/fractal.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fractal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sa/Documents/d/cppProject/hfts/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fractal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sa/Documents/d/cppProject/hfts/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles 0
 .PHONY : CMakeFiles/fractal.dir/rule
 
 # Convenience name for target.
@@ -172,13 +175,45 @@ fractal: CMakeFiles/fractal.dir/rule
 # codegen rule for target.
 CMakeFiles/fractal.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sa/Documents/d/cppProject/hfts/build/CMakeFiles --progress-num=1,2 "Finished codegen for target fractal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles --progress-num=1,2 "Finished codegen for target fractal"
 .PHONY : CMakeFiles/fractal.dir/codegen
 
 # clean rule for target.
 CMakeFiles/fractal.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/clean
 .PHONY : CMakeFiles/fractal.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hfts_benchmark.dir
+
+# All Build rule for target.
+CMakeFiles/hfts_benchmark.dir/all: CMakeFiles/hfts.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hfts_benchmark.dir/build.make CMakeFiles/hfts_benchmark.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hfts_benchmark.dir/build.make CMakeFiles/hfts_benchmark.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles --progress-num=12,13 "Built target hfts_benchmark"
+.PHONY : CMakeFiles/hfts_benchmark.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hfts_benchmark.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles 9
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hfts_benchmark.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles 0
+.PHONY : CMakeFiles/hfts_benchmark.dir/rule
+
+# Convenience name for target.
+hfts_benchmark: CMakeFiles/hfts_benchmark.dir/rule
+.PHONY : hfts_benchmark
+
+# codegen rule for target.
+CMakeFiles/hfts_benchmark.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hfts_benchmark.dir/build.make CMakeFiles/hfts_benchmark.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles --progress-num=12,13 "Finished codegen for target hfts_benchmark"
+.PHONY : CMakeFiles/hfts_benchmark.dir/codegen
+
+# clean rule for target.
+CMakeFiles/hfts_benchmark.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hfts_benchmark.dir/build.make CMakeFiles/hfts_benchmark.dir/clean
+.PHONY : CMakeFiles/hfts_benchmark.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sa/Documents/d/cppProject/hfts
+CMAKE_SOURCE_DIR = /Users/sa/Documents/d/code/cppProject/hfts
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sa/Documents/d/cppProject/hfts/build
+CMAKE_BINARY_DIR = /Users/sa/Documents/d/code/cppProject/hfts/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sa/Documents/d/cppProject/hfts/build/CMakeFiles /Users/sa/Documents/d/cppProject/hfts/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles /Users/sa/Documents/d/code/cppProject/hfts/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sa/Documents/d/cppProject/hfts/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -154,6 +154,43 @@ fractal: cmake_check_build_system
 fractal/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/build
 .PHONY : fractal/fast
+
+#=============================================================================
+# Target rules for targets named hfts_benchmark
+
+# Build rule for target.
+hfts_benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hfts_benchmark
+.PHONY : hfts_benchmark
+
+# fast build rule for target.
+hfts_benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hfts_benchmark.dir/build.make CMakeFiles/hfts_benchmark.dir/build
+.PHONY : hfts_benchmark/fast
+
+example/benchmark.o: example/benchmark.cpp.o
+.PHONY : example/benchmark.o
+
+# target to build an object file
+example/benchmark.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hfts_benchmark.dir/build.make CMakeFiles/hfts_benchmark.dir/example/benchmark.cpp.o
+.PHONY : example/benchmark.cpp.o
+
+example/benchmark.i: example/benchmark.cpp.i
+.PHONY : example/benchmark.i
+
+# target to preprocess a source file
+example/benchmark.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hfts_benchmark.dir/build.make CMakeFiles/hfts_benchmark.dir/example/benchmark.cpp.i
+.PHONY : example/benchmark.cpp.i
+
+example/benchmark.s: example/benchmark.cpp.s
+.PHONY : example/benchmark.s
+
+# target to generate assembly for a file
+example/benchmark.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hfts_benchmark.dir/build.make CMakeFiles/hfts_benchmark.dir/example/benchmark.cpp.s
+.PHONY : example/benchmark.cpp.s
 
 example/fractal.o: example/fractal.cpp.o
 .PHONY : example/fractal.o
@@ -342,6 +379,10 @@ help:
 	@echo "... fractal"
 	@echo "... hello_task"
 	@echo "... hfts"
+	@echo "... hfts_benchmark"
+	@echo "... example/benchmark.o"
+	@echo "... example/benchmark.i"
+	@echo "... example/benchmark.s"
 	@echo "... example/fractal.o"
 	@echo "... example/fractal.i"
 	@echo "... example/fractal.s"

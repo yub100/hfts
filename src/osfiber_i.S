@@ -81,6 +81,7 @@ HFTS_ASM_SYMBOL(hfts_fiber_swap):
 
     mov x2,  sp
     str x2,  [x0, #HFTS_REG_SP]
+    str x30, [x0, #HFTS_REG_LR]
 
     mov x7,  x1
 

@@ -1,6 +1,6 @@
 CMakeFiles/fractal.dir/example/fractal.cpp.o: \
-  /Users/sa/Documents/d/cppProject/hfts/example/fractal.cpp \
-  /Users/sa/Documents/d/cppProject/hfts/include/hfts/defer.hpp \
+  /Users/sa/Documents/d/code/cppProject/hfts/example/fractal.cpp \
+  /Users/sa/Documents/d/code/cppProject/hfts/include/hfts/defer.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -264,9 +264,9 @@ CMakeFiles/fractal.dir/example/fractal.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__std_mbstate_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mbstate_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mbstate_t.h \
-  /Users/sa/Documents/d/cppProject/hfts/include/hfts/scheduler.hpp \
-  /Users/sa/Documents/d/cppProject/hfts/include/hfts/containers.hpp \
-  /Users/sa/Documents/d/cppProject/hfts/include/hfts/memory.hpp \
+  /Users/sa/Documents/d/code/cppProject/hfts/include/hfts/scheduler.hpp \
+  /Users/sa/Documents/d/code/cppProject/hfts/include/hfts/containers.hpp \
+  /Users/sa/Documents/d/code/cppProject/hfts/include/hfts/memory.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/array \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -771,8 +771,8 @@ CMakeFiles/fractal.dir/example/fractal.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
-  /Users/sa/Documents/d/cppProject/hfts/include/hfts/mutex.hpp \
-  /Users/sa/Documents/d/cppProject/hfts/include/hfts/tsa.hpp \
+  /Users/sa/Documents/d/code/cppProject/hfts/include/hfts/mutex.hpp \
+  /Users/sa/Documents/d/code/cppProject/hfts/include/hfts/tsa.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/condition_variable \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_callback.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_shared_ptr.h \
@@ -780,9 +780,9 @@ CMakeFiles/fractal.dir/example/fractal.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/atomic_unique_lock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_list_view.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_token.h \
-  /Users/sa/Documents/d/cppProject/hfts/include/hfts/task.hpp \
-  /Users/sa/Documents/d/cppProject/hfts/include/hfts/thread_loacl.hpp \
-  /Users/sa/Documents/d/cppProject/hfts/include/hfts/thread.hpp \
+  /Users/sa/Documents/d/code/cppProject/hfts/include/hfts/task.hpp \
+  /Users/sa/Documents/d/code/cppProject/hfts/include/hfts/thread_loacl.hpp \
+  /Users/sa/Documents/d/code/cppProject/hfts/include/hfts/thread.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/thread \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/this_thread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/thread.h \
@@ -803,10 +803,10 @@ CMakeFiles/fractal.dir/example/fractal.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
-  /Users/sa/Documents/d/cppProject/hfts/include/hfts/waitgroup.hpp \
-  /Users/sa/Documents/d/cppProject/hfts/include/hfts/conditionvariable.hpp \
-  /Users/sa/Documents/d/cppProject/hfts/include/hfts/fiber.hpp \
-  /Users/sa/Documents/d/cppProject/hfts/include/hfts/osfiberm.hpp \
+  /Users/sa/Documents/d/code/cppProject/hfts/include/hfts/waitgroup.hpp \
+  /Users/sa/Documents/d/code/cppProject/hfts/include/hfts/conditionvariable.hpp \
+  /Users/sa/Documents/d/code/cppProject/hfts/include/hfts/fiber.hpp \
+  /Users/sa/Documents/d/code/cppProject/hfts/include/hfts/osfiberm.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \

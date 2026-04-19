@@ -1,8 +1,8 @@
 CMakeFiles/hfts.dir/src/thread.cpp.o: \
-  /Users/sa/Documents/d/cppProject/hfts/src/thread.cpp \
-  /Users/sa/Documents/d/cppProject/hfts/include/hfts/thread.hpp \
-  /Users/sa/Documents/d/cppProject/hfts/include/hfts/containers.hpp \
-  /Users/sa/Documents/d/cppProject/hfts/include/hfts/memory.hpp \
+  /Users/sa/Documents/d/code/cppProject/hfts/src/thread.cpp \
+  /Users/sa/Documents/d/code/cppProject/hfts/include/hfts/thread.hpp \
+  /Users/sa/Documents/d/code/cppProject/hfts/include/hfts/containers.hpp \
+  /Users/sa/Documents/d/code/cppProject/hfts/include/hfts/memory.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -770,7 +770,7 @@ CMakeFiles/hfts.dir/src/thread.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
-  /Users/sa/Documents/d/cppProject/hfts/include/hfts/defer.hpp \
+  /Users/sa/Documents/d/code/cppProject/hfts/include/hfts/defer.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/thread_act.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/ndr.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/OSByteOrder.h \

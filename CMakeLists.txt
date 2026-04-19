@@ -31,3 +31,9 @@ add_executable(fractal
 )
 
 target_link_libraries(fractal PRIVATE hfts)
+
+add_executable(hfts_benchmark
+  example/benchmark.cpp
+)
+
+target_link_libraries(hfts_benchmark PRIVATE hfts)
