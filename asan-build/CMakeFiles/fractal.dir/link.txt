@@ -1,1 +1,0 @@
-/usr/bin/c++ -fsanitize=address -fno-omit-frame-pointer -Wl,-search_paths_first -Wl,-headerpad_max_install_names -fsanitize=address CMakeFiles/fractal.dir/example/fractal.cpp.o -o fractal  libhfts.a

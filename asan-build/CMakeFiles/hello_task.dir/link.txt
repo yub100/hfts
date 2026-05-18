@@ -1,1 +1,0 @@
-/usr/bin/c++ -fsanitize=address -fno-omit-frame-pointer -Wl,-search_paths_first -Wl,-headerpad_max_install_names -fsanitize=address CMakeFiles/hello_task.dir/example/hello_task.cpp.o -o hello_task  libhfts.a
