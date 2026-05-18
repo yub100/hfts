@@ -51,12 +51,14 @@ private:
 
     enum class State {
         // The Fibers sit in Woker::idleFibers.
+        // those fiber carry no tasks, wokers will prioritize running other fibers(Running).
         Idle,
 
         // The Fibers sit in Worker::Work::waiting.
         Waiting,
 
         // The Fiber blocked on a wait() without timeout.
+        // only notified by conditionvariable
         Yielded,
 
         // The Fiber blocked on a wait() with timeout.

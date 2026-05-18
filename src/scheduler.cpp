@@ -64,7 +64,7 @@ void Scheduler::bind() {
         hfts::lock lock(singleThreadWorkers.mutex);
         auto tid = std::this_thread::get_id();
 
-        // Must use std::move, because make_unique pointer is can be hold by multiple places.
+        // Must use std::move, because make_unique pointer can be hold by multiple places.
         singleThreadWorkers.byTid.emplace(tid, std::move(worker));
     }
 }

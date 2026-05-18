@@ -1,6 +1,0 @@
-/Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles/hfts.dir
-/Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles/hello_task.dir
-/Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles/fractal.dir
-/Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles/hfts_benchmark.dir
-/Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles/edit_cache.dir
-/Users/sa/Documents/d/code/cppProject/hfts/build/CMakeFiles/rebuild_cache.dir

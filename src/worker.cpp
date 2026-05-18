@@ -362,11 +362,13 @@ Worker::Work::Work(Allocator* allocator)
 
 template <typename F>
 void Worker::Work::wait(F&& f) {
+    notifyAdded = true;
     if (waiting) {
         mutex.wait_until_locked(added, waiting.first(), std::forward<F>(f));
     } else {
         mutex.wait_locked(added, std::forward<F>(f));
     }
+    notifyAdded = false;
 }
 
 
